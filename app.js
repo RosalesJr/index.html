@@ -18,19 +18,19 @@ else if (usersWorkout !== "bench"){
 }
 function userTrue(){
     let answer = false;
-    let jesus = 0;
+    let work = 0;
     
-    while (!answer){let response = prompt("yes or no workingout is good for you?");
+    while (!answer){let response = prompt("yes or no, workingout is good for you?");
         if (response === "yes"){
-            alert("youre correct!");
-            jesus += 4;
+            alert("you're correct!");
+            work += 4;
             break;
         } else if (response === "true"){
-            alert("youre right");
-            jesus += 2;
+            alert("you're right!");
+            work += 2;
             break;
         } else {
-            alert("try again")
+            alert("try again!")
         }
 
         }
