@@ -20,7 +20,7 @@ function userTrue(){
     let answer = false;
     let work = 0;
     
-    while (!answer){let response = prompt("yes or no, workingout is good for you?");
+    while (!answer){let response = prompt("yes or no, working out is good for you?");
         if (response === "yes"){
             alert("you're correct!");
             work += 4;
